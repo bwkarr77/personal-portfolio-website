@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expressjs": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "make-runnable": "^1.3.6",
+    "moment": "^2.24.0",
+    "pg": "^7.18.2",
+    "postgresql": "^0.0.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "react-sticky": "^6.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "personal portfolio, demonstrating skills I've learned along the way!",
+  "main": "index.js",
+  "author": "Brett Karr",
+  "license": "MIT"
 }
