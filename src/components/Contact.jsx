@@ -61,52 +61,118 @@ const Contact = () => {
           </a>
         </li>
       </ul>
-      {/* <div className="palette">
+      {/*  */}
+      {/*       
+      <div className="palette">
         <div className="color1">
           <a
             className="icon brands fa-github"
             target="_blank"
             href="https://github.com/bwkarr77"
             alt="github"
-            content=""
+            content="a"
           ></a>
         </div>
-        <a
-          className="color2"
+        <div className="color2">
+          <a
+            className="icon brands fa-github"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+            alt="github"
+            content="a"
+          ></a>
+        </div>
+        <div className="color3">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color3"
+        </div>
+        <div className="color4">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color4"
+        </div>
+        <div className="color5">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color5"
+        </div>
+        <div className="color6">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color6"
+        </div>
+        <div className="color7">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color7"
+        </div>
+        <div className="color8">
+          <a
+            className="icon brands fa-github"
           target="_blank"
           href="https://github.com/bwkarr77"
         ></a>
-        <a
-          className="color8"
-          target="_blank"
-          href="https://github.com/bwkarr77"
-        ></a>
-      </div> */}
+        </div>
+      </div> 
+*/}
+      {/*  */}
+      <section id="wheel">
+        <div className="palette">
+          <a
+            className="color1"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color2"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color3"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color4"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color5"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color6"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+          <a
+            className="color7"
+            target="_blank"
+            href="https://github.com/bwkarr77"
+          ></a>
+        </div>
+        <div className="circle">
+          <p className="symbol1"></p>
+          <p className="symbol1"></p>
+          <p className="symbol1"></p>
+          <p className="symbol1"></p>
+          <p className="symbol1"></p>
+        </div>
+      </section>
     </article>
   );
 };

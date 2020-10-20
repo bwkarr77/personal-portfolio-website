@@ -76,7 +76,7 @@ const App = () => {
         <div id="body">
           <div className="buffer">
           <Switch>
-            <Route exact path={"/Intro"} component={Intro} />
+            <Route exact path={"/"} component={Intro} />
             <Route exact path={"/About"} component={About} />
             <Route exact path={"/Work"} component={Work} />
             <Route exact path={"/Canvas"} component={Canvas} />

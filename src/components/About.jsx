@@ -10,7 +10,7 @@ const About = () => {
       <p>
         My name is Brett. I come from a small town of Carpinteria, CA. Growing
         up I played in the marching band, some sports, and a few random
-        recreational activities.
+        recreational activities. Eagle Scout, power lifter, weight loss(er), Smash Brothers enthusiast, and snacker are adjectives that I've gone by in the past.
       </p>
       <p>
         After high school I spent far too long at a local city college (SBCC),

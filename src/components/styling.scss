@@ -10,18 +10,26 @@
 #work a:hover {
 }
 
+#wheel {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .palette {
   --g: 5px; /* The gap between shapes*/
-  --s: 50px; /* the size*/
+  --s: 50px; /* INSIDE circle size*/
 
+  // height and width create the OUTER circle size
+  // MUST be equal to each other.
   height: 200px;
   width: 200px;
-  position: relative;
-  display: inline-block;
+  position: relative; // keeps the arcs 'in place'
+  display: inline-block; //keeps the circle centered
   overflow: hidden;
 }
 .palette > * {
-  position: absolute;
+  position: absolute; // or else the arcs would move down, instead of rotate
   /*   positions the shapes inside the palette: */
   top: 0;
   left: 0;
@@ -38,6 +46,15 @@
     100% calc(0% - var(--g) / 2),
     50% calc(50% - var(--g) / 2)
   );
+  a {
+    left: 35px;
+    bottom: 35px;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    display: inline-block;
+    border-radius: 50%;
+    //
+    width: 2.25rem;
+  }
 }
 .color1 {
   transform: rotate(45deg); /* 360/8 */
@@ -66,4 +83,17 @@
 .color7 {
   transform: rotate(-135deg);
   --c: pink;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  // background-color: white;
+  border: 1px solid white;
+
+  left: 50%;
+  // top: 50%;
+  transform: translate(-50%, -120%); //translate(x, y)
 }

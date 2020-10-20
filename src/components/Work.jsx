@@ -1,7 +1,7 @@
 import React from "react";
 
 import { work_details } from "./data/data.jsx";
-import "./styling.css";
+import "./styling.scss";
 
 const Work = () => {
   return (
