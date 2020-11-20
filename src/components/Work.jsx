@@ -23,9 +23,18 @@ const Work = () => {
       <p>{work_details.react.text}</p>
       {work_details.react.projects.map((each) => {
         return (
-          <a href={each.link} target="_blank" key={each.name}>
-            <img src={each.img} alt={each.alt} className="css_image" />
-          </a>
+          <div className="projects">
+            <a href={each.link} target="_blank" key={each.name}>
+              <img src={each.img} alt={each.alt} className="css_image" />
+            </a>
+            {each.desc}
+            Frameworks used:
+            <ul>
+              {each.frameworks.map((framework) => {
+                return <li>{framework}</li>;
+              })}
+            </ul>
+          </div>
         );
       })}
     </article>

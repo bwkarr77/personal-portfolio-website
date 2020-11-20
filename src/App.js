@@ -4,7 +4,6 @@ import NavBar from "./components/NavBar.jsx";
 import { Route, Link, Switch } from "react-router-dom";
 
 // COMPONENTS
-import Intro from "./components/Intro.jsx";
 import About from "./components/About.jsx";
 import Work from "./components/Work.jsx";
 import Contact from "./components/Contact.jsx";
@@ -54,8 +53,7 @@ const App = () => {
         <div id="body">
           <div className="buffer">
           <Switch>
-            <Route exact path={"/"} component={Intro} />
-            <Route exact path={"/About"} component={About} />
+            <Route exact path={"/"} component={About} />
             <Route exact path={"/Work"} component={Work} />
             <Route exact path={"/Canvas"} component={Canvas} />
             <Route exact path={"/Contact"} component={Contact} />
