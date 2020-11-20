@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./App.css";
+import "./App.scss";
 import NavBar from "./components/NavBar.jsx";
 import { Route, Link, Switch } from "react-router-dom";
 
@@ -47,30 +47,8 @@ const App = () => {
   });
 
   return (
-    // <body className="is-preload">
     <div className="App">
-      {/* HERE BEGINS THE 'TRANSFERENCE' FROM THE HTML TEMPLATE....*/}
-      {/* Wrapper */}
       <div id="wrapper">
-        {/* Header */}
-        {/*  */}
-        {/* <header id="header">
-        <div className="logo">
-          <span className="icon fa-gem"></span>
-        </div>
-        <div className="content">
-          <div className="inner">
-            <h1>HELLO!!!</h1>
-            <p>
-              My name is Brett. I'm an engineer by day, Full-Stack Developer by
-              night. Welcome to my portfolio page!! Sit awhile and listen.
-              <a href="https://html5up.net/license">Creative Commons</a>
-              license.
-            </p>
-          </div>
-        </div>
-        <div id="navSpacer">a</div>
-        </header> */}
         {/*  */}
         <NavBar />
         <div id="body">
@@ -84,19 +62,13 @@ const App = () => {
           </Switch>
           </div>
         </div>
-        {/* Footer */}
         <footer id="footer">
           <p className="copyright">
             &copy; Untitled. Start Design: <a href="https://html5up.net/dimension">HTML5 UP</a>, but altered by myself.
           </p>
         </footer>
       </div>
-
-      {/* BG */}
       <div id="bg"></div>
-      {/* </body> */}
-
-      {/* .......HERE ENDS THE 'TRANSFERENCE' FROM THE HTML TEMPLATE*/}
     </div>
   );
 };
