@@ -26,7 +26,6 @@ export const work_details = {
       {
         name: "Granted",
         link: "https://prod-granted.herokuapp.com/",
-        // http://www.writemygrants.net/
         desc:
           "Team Project dedicated to matching Grant Applicants with Grant Writers for grant applications. Easy to use, easy to navigate, and easy to organize based on: if a person is applying for grants, or wanting to write for grants.",
         roles: ["Full-Stack Developer", "Front-End", "Back-End"],
@@ -55,7 +54,7 @@ export const work_details = {
         roles: ["Full-Stack Developer", "Front-End"],
         frameworks: ["React.js", "Javascript", "Canvas", "Three.js"],
         alt: "game-of-life",
-        img: "images/game-of-life.png",
+        img: "images/game-of-life.jpg",
         github: "https://github.com/bwkarr77/game-of-life",
         details: [
           "Created a 2D game board with controls to step through the animation between generations.",

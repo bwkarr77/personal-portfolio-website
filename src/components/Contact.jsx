@@ -38,8 +38,8 @@ const Contact = () => {
     //   });
     axios({
       method: "POST",
-      url: "http://localhost:3001/send",
-      data: this.state,
+      url: "http://localhost:3001/Contact",
+      data: contact,
     }).then((response) => {
       if (response.data.status === "success") {
         alert("Message Sent.");
