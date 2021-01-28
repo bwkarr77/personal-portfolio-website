@@ -33,7 +33,7 @@
   transform: rotateY(180deg);
 }
 
-.flip_card_back,
+.flip_card_front,
 .flip_card_back {
   position: absolute;
   width: 100%;
@@ -43,12 +43,23 @@
 }
 
 .flip_card_back {
-  background-color: green;
+  background-color: rgb(64, 70, 163);
   transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+  }
 }
 
 .flip_card_front {
-  background-color: lightseagreen;
+  // background-color: lightseagreen;
+  display: flex;
+  a {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .react_image {

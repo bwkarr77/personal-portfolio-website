@@ -91,7 +91,7 @@ export const work_details = {
         ],
       },
       {
-        name: "Two",
+        name: "More To Come...",
         link: "none",
         desc: "",
         roles: [""],
